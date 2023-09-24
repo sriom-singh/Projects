@@ -1,0 +1,225 @@
+*{
+    margin:0;
+    padding: 0;
+   box-sizing: border-box;
+   line-height: 1.4;
+   font-weight: 300;
+   font-family: "Roboto", sans-serif;
+  
+
+}
+
+.head{
+  
+    background-image: url("/images/developer.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height:100vh; 
+    
+   
+}
+.head-text{
+    position: absolute;
+    min-width: 400px;
+    left:200px;
+    top:50px;
+    color: rgb(255, 255, 255);
+    
+   
+}
+
+.hii{
+    font-size: 60px;
+    font-weight: 400;
+    padding-left: 250px;
+    background-color: rgb(29, 28, 28,0.3);
+}
+.lang{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius:0 0 0 60%  ;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+.lang-name{
+    width: 100%;
+    
+     display: flex;
+     flex-direction: row;
+    /* background-color: black; */
+    position: relative;
+    padding: 40px 80px;
+    justify-content: space-around;
+    
+}
+.name{
+    width: 300px;
+    height: 380px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+    /* background-color: blue; */
+    position: relative;
+    display: flex;
+    flex-direction:column ;
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+}
+
+.name:hover{
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+    transition: 0.2s ease-in-out;
+}
+
+.name 
+.pic1,
+.pic2,
+.pic3{
+    position: relative;
+    height: 50%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+    /* background-color: rgb(200, 255, 0); */
+}
+
+.pic1{
+    background-image: url("https://www.techfor.id/wp-content/uploads/2019/12/html.png");
+}
+.pic2{
+    background-image: url("https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photos/13281224/definicion-usos-ventajas-lenguaje-css3-que-es.jpg");
+}
+.pic3{
+    background-image: url("https://whatpixel.com/images/2017/05/00-javalogo.jpg");
+}
+
+
+.name .info{
+    position: relative;
+    height: 50%;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    padding: 10px 20px;
+    /* background-color: rgb(255, 0, 0); */
+}
+
+.info h2{
+    
+    padding-bottom: 10px;
+}
+
+.main{
+    display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+.about{
+    margin: 15px 25px;
+    font-family: "Roboto", sans-serif;
+    width: 30%;
+    background-color: rgb(12, 12, 12);
+   border-radius: 10px;
+   display: flex;
+   flex-direction: row;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    color: white;
+}
+.contact input{
+    border:1px solid rgb(198, 198, 199);
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+    padding-left: 4px;
+}
+.contact h1{
+    font-size: 45px;
+    font-weight: 400;
+}
+.contact h4{
+    padding-top: 15px;
+    
+}
+.contact textarea{
+    width: 300px; 
+    height: 60px;
+    margin-top: 20px;
+}
+.contact button{
+    margin-top:15px ;
+    height: 30px;
+    width: 60px;
+}
+.contact p{
+    margin-top:15px ;
+    font-size: 13px;
+    text-align: end;
+}
+
+footer{
+    width: 100%;
+    
+    background-color: black;
+    border-radius:60% 0 0 0 ;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
+footer h1{
+    font-size: 45px;
+    padding-top: 20px;
+    margin-bottom: -30px;
+    font-weight: 400;
+}
+
+.logo{
+    margin-top: 50px;
+    height:50px ;
+    width: 250px;
+    margin-left: -30px;
+    /* background-color: azure; */
+    color: white;
+    position: relative;
+    display: flex;
+   align-items:center;
+   justify-content: space-evenly;
+}
+.insta,
+.twit{
+    background-image: url("/images/instagram.png");
+    position: relative;
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align:center;
+   
+}
+.insta{
+    background-image: url("/images/instagram.png");
+}
+.twit{
+    background-image: url("/images/twitter.png");
+    
+}
+.insta h2{
+    font-size: 19px;
+    padding-left:5px ;
+}
+
+.fot{
+    display: flex;
+    flex-direction: column;
+    margin-left: 700px;
+}
