@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto",sans-serif;
+}
+.head{
+    width: 100%;
+    height: 90px;
+    background-color: #143601;
+    box-shadow: 5px 5px 5px rgba(19, 18, 18, 0.08);
+}
+.box1{
+    width: 100%;
+    height: 100%;
+    /* background-color: aliceblue; */
+    display: flex;
+    gap: 200px;
+    
+}
+.logo{
+    width: 30%;
+    display: flex;
+    color: white;
+    padding-top: 10px;
+    margin-left: 30px;
+    
+}
+.logo img{
+   width: 60px;
+   height: 70px;
+}
+.logo h1{
+    padding-left: 10px;
+    padding-top: 10px;
+   text-shadow: rgb(14, 13, 13);
+}
+.logo #slogan{
+    text-align: center;
+   
+}
+.menu{
+    width: 70%;
+}
+
+.info{
+    height: 100%;
+    display: flex;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.about h4{
+    margin: 30px;
+    text-align: center;
+}
